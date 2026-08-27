@@ -40,5 +40,5 @@ jobs:
     with:
       is-trunk: ${{ github.ref == 'refs/heads/trunk' }}
       is-public-fork: ${{ github.event.pull_request.head.repo.fork || false }}
-    secrets:
-      inherit
+#    secrets:
+#      inherit
