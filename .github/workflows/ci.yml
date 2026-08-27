@@ -38,7 +38,7 @@ jobs:
   build:
     uses: ./.github/workflows/build.yml
     with:
-      is-trunk: ${{ github.ref == 'refs/heads/trunk' }}
+      is-trunk: false
       is-public-fork: false
 #    secrets:
 #      inherit
